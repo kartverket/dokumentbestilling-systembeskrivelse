@@ -20,7 +20,7 @@ APIet lar deg bestille tinglyste dokumenter ved å sende en forespørsel til API
 
 ## Bruk av Swagger
 
-Swagger-dokumentasjonen for APIet gir deg en detaljert oversikt over alle API-kallene og tilhørende parameter-informasjon. Åpne [Swagger-dokumentasjonen](https://pantebok.kartverket.no/swagger-ui.html) i en nettleser for å bruke Swagger. Velg deretter ønsket API-kall, legg inn nødvendige parametere og send forespørselen. APIet behandler forespørselen og returnerer responsen tilbake til deg.
+Swagger-dokumentasjonen for APIet gir deg en detaljert oversikt over alle API-kallene og tilhørende parameter-informasjon. Åpne [Swagger-dokumentasjonen (Kommer snart)](https://dokumentbestilling.kartverket.no/swagger-ui.html) i en nettleser for å bruke Swagger. Velg deretter ønsket API-kall, legg inn nødvendige parametere og send forespørselen. APIet behandler forespørselen og returnerer responsen tilbake til deg.
 
 ## Begrensninger
 
@@ -32,4 +32,4 @@ APIet har følgende begrensninger:
 
 ## Feilhåndtering
 
-APIet vil returnere ulike feilkoder og feilmeldinger avhengig av typen feil som oppstår. Disse er beskrevet i [Swagger-dokumentasjonen](https://pantebok.kartverket.no/swagger-ui.html).
+APIet vil returnere ulike feilkoder og feilmeldinger avhengig av typen feil som oppstår. Disse er beskrevet i [Swagger-dokumentasjonen (Kommer snart)](https://dokumentbestilling.kartverket.no/swagger-ui.html).
