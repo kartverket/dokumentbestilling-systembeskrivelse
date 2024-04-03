@@ -1,0 +1,15 @@
+# nonk8s
+apiVersion: "backstage.io/v1alpha1"
+kind: "Component"
+metadata:
+  name: "dokumentbestilling-systembeskrivelse"
+  tags:
+  - "public"
+  links:
+  - url: "https://github.com/kartverket/dokumentbestilling-systembeskrivelse"
+    title: "dokumentbestilling-systembeskrivelse på GitHub"
+spec:
+  type: "documentation"
+  lifecycle: "production"
+  owner: "Eiet"
+  system: "Dokumentbestilling"
