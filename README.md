@@ -2,6 +2,9 @@
 
 APIet gir tilgang til en tjeneste som lar deg bestille og motta tinglyste dokumenter digitalt. For å bruke APIet, må organisasjonen din være registrert hos Digdir og ha blitt lagt til i APIet via Kartverket.
 
+- Prodmiljø: [https://dokumentbestilling.kartverket.no/](https://dokumentbestilling.kartverket.no/)
+- Testmiljø: [https://dokumentbestilling-test.kartverket.no/](https://dokumentbestilling-test.kartverket.no/)
+
 ## Komme i gang
 
 For å bruke APIet, må du først registrere organisasjonen din hos Digdir og hente et maskinporten-token som kreves for å autentisere API-kallene dine.
@@ -20,7 +23,7 @@ APIet lar deg bestille tinglyste dokumenter ved å sende en forespørsel til API
 
 ## Bruk av Swagger
 
-Swagger-dokumentasjonen for APIet gir deg en detaljert oversikt over alle API-kallene og tilhørende parameter-informasjon. Åpne [Swagger-dokumentasjonen](https://dokumentbestilling-test.kartverket.no/swagger-ui/index.html) i en nettleser for å bruke Swagger. Velg deretter ønsket API-kall, legg inn nødvendige parametere og send forespørselen. APIet behandler forespørselen og returnerer responsen tilbake til deg.
+Swagger-dokumentasjonen for APIet gir deg en detaljert oversikt over alle API-kallene og tilhørende parameter-informasjon. Åpne [Swagger-dokumentasjonen](https://dokumentbestilling.kartverket.no/swagger-ui/index.html) i en nettleser for å bruke Swagger. Velg deretter ønsket API-kall, legg inn nødvendige parametere og send forespørselen. APIet behandler forespørselen og returnerer responsen tilbake til deg.
 
 ## Begrensninger
 
@@ -28,8 +31,8 @@ APIet har følgende begrensninger:
 
 *   Kun tilgjengelig for kunder som er registrert hos Digdir og har organisasjonen sin lagt til i APIet.
 *   Krever et gyldig maskinporten-token som har begrenset varighet og må fornyes regelmessig for å opprettholde tilgangen til APIet.
-*   Gir kun tilgang til en håndfull tinglyste dokumenter som er tilgjengelige digitalt. For å få tilgang til andre dokumenter må du bestille disse på [Kartverket sine nettsider](https://www.kartverket.no/eiendom/bestille-fra-grunnboken).
+*   Gir tilgang til alle tinglyste dokumenter som er tilgjengelige digitalt og bekreftede grunnboksutskrifter.
 
 ## Feilhåndtering
 
-APIet vil returnere ulike feilkoder og feilmeldinger avhengig av typen feil som oppstår. Disse er beskrevet i [Swagger-dokumentasjonen](https://dokumentbestilling-test.kartverket.no/swagger-ui/index.html).
+APIet vil returnere ulike feilkoder og feilmeldinger avhengig av typen feil som oppstår. Disse er beskrevet i [Swagger-dokumentasjonen](https://dokumentbestilling.kartverket.no/swagger-ui/index.html).
