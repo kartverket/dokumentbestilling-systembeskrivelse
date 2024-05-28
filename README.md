@@ -1,6 +1,6 @@
-# Tinglyste dokumenter API
+# Dokumentbestilling API
 
-APIet gir tilgang til en tjeneste som lar deg bestille og motta tinglyste dokumenter digitalt. For å bruke APIet, må organisasjonen din være registrert hos Digdir og ha blitt lagt til i APIet via Kartverket.
+APIet gir tilgang til en tjeneste som lar deg bestille og motta tinglyste dokumenter og bekreftede grunnboksutskrifter digitalt. For å bruke APIet, må organisasjonen din være registrert hos Digdir og ha blitt lagt til i APIet via Kartverket.
 
 - Prodmiljø: [https://dokumentbestilling.kartverket.no/](https://dokumentbestilling.kartverket.no/)
 - Testmiljø: [https://dokumentbestilling-test.kartverket.no/](https://dokumentbestilling-test.kartverket.no/)
