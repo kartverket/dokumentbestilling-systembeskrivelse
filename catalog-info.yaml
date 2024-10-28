@@ -10,30 +10,3 @@ spec:
   lifecycle: "production"
   owner: "eiet"
   system: "dokumentbestilling"
----
-apiVersion: "backstage.io/v1alpha1"
-kind: "Group"
-metadata:
-  name: "security_champion_dokumentbestilling-systembeskrivelse"
-  title: "Security Champion dokumentbestilling-systembeskrivelse"
-spec:
-  type: "security_champion"
-  parent: "eiendom_security_champions"
-  members:
-  - "DanielBerge"
-  children:
-  - "resource:dokumentbestilling-systembeskrivelse"
----
-apiVersion: "backstage.io/v1alpha1"
-kind: "Resource"
-metadata:
-  name: "dokumentbestilling-systembeskrivelse"
-  links:
-  - url: "https://github.com/kartverket/dokumentbestilling-systembeskrivelse"
-    title: "dokumentbestilling-systembeskrivelse på GitHub"
-spec:
-  type: "repo"
-  owner: "security_champion_dokumentbestilling-systembeskrivelse"
-  system: "dokumentbestilling"
-  dependencyOf:
-  - "component:dokumentbestilling-systembeskrivelse"
